@@ -16,7 +16,6 @@ This project introduces an automated solution for summarizing legal texts, lever
 1. **`fine_tuned_model` :** This folder is generated from the training and storing the T5 model which is trained on the dataset and being used to generate summary in the web application.
 2. **`app.py` :** The `app.py` is the file that has the code of the streamlit app that handles the queries and input pdfs for which model will be used to summarize it late on.
 3. **`Legal_text_summarization.ipynb` :** The `Legal_text_summarization.ipynb` file is the main file that contains all the dataset loading, preprocessing and model generation, training and model fine-tuning functions.
-4. **`Report` :** The folder contains the doc/docx format reoprt along with the pdf format. 
 
 ## Features
 - **Efficient Summarization :** Utilizes state-of-the-art NLP T5 model to generate accurate and concise summaries of legal documents.

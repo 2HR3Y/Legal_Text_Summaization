@@ -6,7 +6,7 @@ This project introduces an automated solution for summarizing legal texts, lever
 </p>
 
 ## Setup Instructions
-1. **Upload Files to Google Colab :** Begin by uploading the `Legal_summarization.ipynb` and `app.py` files to Google Colab for seamless execution and collaboration.
+1. **Upload Files to Google Colab :** Begin by uploading the `Legal_text_summarization.ipynb` and `app.py` files to Google Colab for seamless execution and collaboration.
 2. **Generate Hugging Face Token :** Log in to huggingface.com and navigate to Your Profile -> Access Tokens -> New Token. Generate a new token and name it for identification purposes. Copy the token value.
 3. **Set up Colab Secrets :** In Google Colab, navigate to the secrets tab and add a new secret named 'HF_TOKEN'. Paste the copied token value into the corresponding field.
 4. **Run the Project :** Execute each cell of the notebook sequentially to set up the environment, load necessary libraries, and process the legal documents.
@@ -15,7 +15,7 @@ This project introduces an automated solution for summarizing legal texts, lever
 ## Files and Resources
 1. **`fine_tuned_model` :** This folder is generated from the training and storing the T5 model which is trained on the dataset and being used to generate summary in the web application.
 2. **`app.py` :** The `app.py` is the file that has the code of the streamlit app that handles the queries and input pdfs for which model will be used to summarize it late on.
-3. **`Legal_summarization.ipynb` :** The `Legal_summarization.ipynb` file is the main file that contains all the dataset loading, preprocessing and model generation, training and model fine-tuning functions.
+3. **`Legal_text_summarization.ipynb` :** The `Legal_text_summarization.ipynb` file is the main file that contains all the dataset loading, preprocessing and model generation, training and model fine-tuning functions.
 4. **`Report` :** The folder contains the doc/docx format reoprt along with the pdf format. 
 
 ## Features

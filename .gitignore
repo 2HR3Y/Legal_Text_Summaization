@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.env
+/fine_tuned_model/
+/legal_summarization_output/
